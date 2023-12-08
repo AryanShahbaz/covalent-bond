@@ -1,0 +1,74 @@
+@font-face{
+     font-family:bel;
+     src:url(./Fonts/Belanosima-Regular.ttf)
+   }
+
+#images-student{
+          /* margin-top:12px; */
+/* margin-right:12px; */
+ background-color:#1A2A3A;
+}
+html{
+     /* margin-right:12px; */
+     background-color:#1A2A3A;
+}
+#img-l1{
+     /* margin-top:12px; */
+     text-align: center;
+     display:flex;
+     justify-content: space-evenly; 
+}
+#img-l2{
+     display:flex;
+     justify-content: space-evenly;
+     /* align-content: center; */
+}
+#img-l3{
+     display:flex;
+     margin-right:20px;
+     margin-left:20px;
+     /* align-content: center; */
+     justify-content: space-between;
+}
+.person-img{
+     width:180px;
+     margin-top:15px;
+     border-radius: 100px;
+     border:#51ce83 3px solid;
+     padding:5px;
+}
+#mst-name{
+     margin-left:-60px;
+     /* font-size: 15px; */
+     /* height:190px; */
+}
+.person-name{
+     font-family: bel;
+     font-size: 26px;
+     color:#51ce83;
+     text-align: center;
+}
+@media(max-width:650px){
+     .person-img{
+          width:120px;
+          border-radius: 100px;
+     }  
+     .person-name{
+          font-family: bel;
+          font-size: 18px;
+          color:#51ce83;
+          text-align: center;
+     }
+     #mst-name{
+          font-size: 15px;
+          /* height:190px; */
+     }
+}
+
+hr{
+     background-color: #51ce83;
+     height:3px;
+     left:10%;
+     border-radius:500px;
+     width:80%;
+}

@@ -1,0 +1,54 @@
+@font-face{
+       font-family:bel;
+       src:url(./Fonts/Belanosima-Regular.ttf)
+     }
+#top-text{
+       font-family: bel;
+       font-size:24px;
+       color:#51ce83;
+       text-align: center;
+}
+.notice{
+       color:#ce5151;
+}
+#title{
+       font-family: bel;
+       font-size:36px;
+       color:#51ce83;
+       text-align: center; 
+}
+#hydrocarbon-type{
+       width:320px;
+       font-family:bel;
+       font-size:24px;
+       border-radius:25px;
+       outline:none;
+       background-color:#1A2A3C;
+       color:#51ce83;
+       border:solid 4px #51ce83;
+}
+#hydrocarbon{
+       text-align: center;
+}
+.submit-btn{
+       background-color:#1A2A3C;
+       color:#51ce83;
+       height:40px;
+       width:40px;
+       outline:none;
+       border:#51ce83 solid 3px;
+       border-radius: 25px;
+       margin-left:5px;
+}
+#number-carbon-input{
+       width:320px;
+       font-family:bel;
+       background-color:#1A2A3C;
+       font-size:24px;
+       border-radius:25px;
+       outline:none;
+       margin-top:20px;
+       color:#51ce83;
+       text-align: center;
+       border:solid 4px #51ce83;
+}

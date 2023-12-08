@@ -1,0 +1,17 @@
+html{
+     background-color: #1a2a3a;
+}
+
+#contact{
+     text-align: center;
+     background-color: #1a2a3a;
+     
+}
+#way-contact{
+     display: flex;
+     margin-top: 50px;;
+     justify-content: space-evenly;
+}
+.way-contact-icon{
+     width:40%;
+}
